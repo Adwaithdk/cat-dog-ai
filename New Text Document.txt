@@ -1,0 +1,12 @@
+KGAT_e98339e818740b6ed0cf067b52680dad
+API TOKEN
+
+To use this token, set the KAGGLE_API_TOKEN environment variable:
+
+export KAGGLE_API_TOKEN=KGAT_e98339e818740b6ed0cf067b52680dad
+Or save it to ~/.kaggle/access_token, where the client will read it automatically:
+
+mkdir -p ~/.kaggle && echo KGAT_e98339e818740b6ed0cf067b52680dad > ~/.kaggle/access_token && chmod 600 ~/.kaggle/access_token
+Then you can use the client as follows:
+
+kaggle competitions list
